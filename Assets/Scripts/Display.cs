@@ -44,20 +44,29 @@ public class Display : MonoBehaviour
     public Text log;
 
     [SerializeField]
+    public Text guidance;
+
+    [SerializeField]
     public Button buttonLocate;
 
     [SerializeField]
     public Button buttonHide;
+        
+    public GameObject _cube;
     
     private Model runtimeModel;
     private IWorker worker;
     private string translateVecLayer;
     private string rotateVecLayer;
     public ARCameraManager cameraManager;
+    private Gyroscope _gyro;
 
     public List<Vector3> historyPosition = new List<Vector3>();
     private int count;  //used for computing the running time
     private bool recordFlag = false;
+    private float orientation;
+    private float historyOrientation;
+    private bool hisEmptyFlag = true;
 
 
     void Start()
@@ -75,6 +84,19 @@ public class Display : MonoBehaviour
         buttonHide.onClick.AddListener(TaskOnClickHide);
         Application.lowMemory += OnLowMemory;
         count = 0;
+
+        _gyro = Input.gyro;
+        _gyro.enabled = true;
+        _cube.GetComponent<Renderer>().enabled = false;
+        historyOrientation = 0;
+    }
+
+    private void Update() {
+        _cube.transform.localRotation = _gyro.attitude;
+        _cube.transform.Rotate(0f, 0f, 180f, Space.Self); // Swap "handedness" of quaternion from gyro.
+        _cube.transform.Rotate(90f, 180f, 0f, Space.World); // Rotate to make sense as a camera pointing out the back of your device.
+
+        orientation = _cube.transform.eulerAngles.y;
     }
 
     private void OnLowMemory()
@@ -85,8 +107,13 @@ public class Display : MonoBehaviour
 
     unsafe private void FixedUpdate() 
     {
-        if(recordFlag == true)
+
+        if((recordFlag == true)&&((DataAnalysis.enoughMotion(orientation, historyOrientation))||(hisEmptyFlag == true)))
         {
+            guidance.text = "Please keep scanning horizontally.";
+            hisEmptyFlag = false;
+            historyOrientation = orientation;
+
             if (!cameraManager.TryAcquireLatestCpuImage(out XRCpuImage image))
                 return;
 
@@ -160,7 +187,7 @@ public class Display : MonoBehaviour
 
             count += 1;
             
-            if(count >= 10)
+            if(count >= 6)
             {
                 tiger.SetActive(true);
                 tigerModel.GetComponent<Renderer>().enabled = true;
@@ -186,6 +213,7 @@ public class Display : MonoBehaviour
                 count = 0;
                 historyPosition.Clear();
                 recordFlag = false;
+                guidance.text = "";
             }
 
         }
@@ -194,7 +222,7 @@ public class Display : MonoBehaviour
     unsafe void TaskOnClickLocate()
     {   
         recordFlag = true;
-        
+        hisEmptyFlag = true;
 
         /*
         //write the image to phone

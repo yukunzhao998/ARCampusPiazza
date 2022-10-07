@@ -18,13 +18,13 @@ COMMAND LINE ARGUMENTS:
 -name
 AssetImportWorker0
 -projectPath
-/Users/yukun/Desktop/UnityWorkspace/ARCampus
+/Users/yukun/Desktop/UnityWorkspace/ARCampusScan
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49353
-Successfully changed project path to: /Users/yukun/Desktop/UnityWorkspace/ARCampus
-/Users/yukun/Desktop/UnityWorkspace/ARCampus
+49754
+Successfully changed project path to: /Users/yukun/Desktop/UnityWorkspace/ARCampusScan
+/Users/yukun/Desktop/UnityWorkspace/ARCampusScan
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -54,11 +54,11 @@ Successfully changed project path to: /Users/yukun/Desktop/UnityWorkspace/ARCamp
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 103.07 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 144.65 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.13f1 (90b6766da538)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.2.13f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/yukun/Desktop/UnityWorkspace/ARCampus/Assets
+[Subsystems] Discovering subsystems at path /Users/yukun/Desktop/UnityWorkspace/ARCampusScan/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
  preferred device: Apple M1 Pro (high power)
 Metal devices available: 1
@@ -69,85 +69,85 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.2.13f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.2.13f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.2.13f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56126
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56540
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.2.13f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.2.13f1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2021.2.13f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Registered in 0.000525 seconds.
+Registered in 0.000581 seconds.
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 93.60 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 100.03 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.407 seconds
+- Completed reload, in  0.424 seconds
 Domain Reload Profiling:
-	ReloadAssembly (407ms)
-		BeginReloadAssembly (28ms)
+	ReloadAssembly (424ms)
+		BeginReloadAssembly (29ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (0ms)
-		EndReloadAssembly (317ms)
-			LoadAssemblies (28ms)
+		EndReloadAssembly (331ms)
+			LoadAssemblies (30ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (68ms)
+			SetupTypeCache (69ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (18ms)
-			SetupLoadedEditorAssemblies (207ms)
+			SetupLoadedEditorAssemblies (217ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (44ms)
+				InitializePlatformSupportModulesInManaged (46ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (94ms)
+				RefreshPlugins (100ms)
 				BeforeProcessingInitializeOnLoad (1ms)
 				ProcessInitializeOnLoadAttributes (46ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003185 seconds.
+Registered in 0.009887 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image /Users/yukun/Desktop/UnityWorkspace/ARCampus/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/yukun/Desktop/UnityWorkspace/ARCampus/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/yukun/Desktop/UnityWorkspace/ARCampusScan/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image /Users/yukun/Desktop/UnityWorkspace/ARCampusScan/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 94.10 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 98.95 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  1.384 seconds
+- Completed reload, in  1.635 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1384ms)
-		BeginReloadAssembly (158ms)
+	ReloadAssembly (1636ms)
+		BeginReloadAssembly (162ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (119ms)
-		EndReloadAssembly (1160ms)
-			LoadAssemblies (55ms)
+			CreateAndSetChildDomain (118ms)
+		EndReloadAssembly (1403ms)
+			LoadAssemblies (72ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (192ms)
+			SetupTypeCache (193ms)
 			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (835ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (1063ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
+				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (94ms)
+				RefreshPlugins (99ms)
 				BeforeProcessingInitializeOnLoad (74ms)
-				ProcessInitializeOnLoadAttributes (637ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
+				ProcessInitializeOnLoadAttributes (862ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -157,12 +157,12 @@ Platform modules already initialized, skipping
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.2.13f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5161 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 77 unused Assets / (22.7 MB). Loaded Objects now: 5579.
-Memory consumption went from 377.7 MB to 355.0 MB.
-Total: 5.559709 ms (FindLiveObjects: 0.172291 ms CreateObjectMapping: 0.061042 ms MarkObjects: 2.691667 ms  DeleteObjects: 2.634125 ms)
+Unloading 5384 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 221 unused Assets / (23.3 MB). Loaded Objects now: 5654.
+Memory consumption went from 388.9 MB to 365.6 MB.
+Total: 5.711792 ms (FindLiveObjects: 0.215500 ms CreateObjectMapping: 0.063041 ms MarkObjects: 2.469750 ms  DeleteObjects: 2.962958 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -176,396 +176,115 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 263.990088 seconds.
-  path: Assets/Scripts/DataAnalysis.cs
-  artifactKey: Guid(3d1b3e6615a29497e80b107a9a722a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/DataAnalysis.cs using Guid(3d1b3e6615a29497e80b107a9a722a7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7a86abd85a65a2d579a75287c20594a') in 0.142717 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002179 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x29b9c7000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/yukun/Desktop/UnityWorkspace/ARCampus/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/yukun/Desktop/UnityWorkspace/ARCampus/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.621 seconds
-Domain Reload Profiling:
-	ReloadAssembly (622ms)
-		BeginReloadAssembly (73ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (2ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (498ms)
-			LoadAssemblies (29ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (176ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (235ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (44ms)
-				ProcessInitializeOnLoadAttributes (162ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.88 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5078 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 67 unused Assets / (22.7 MB). Loaded Objects now: 5582.
-Memory consumption went from 376.2 MB to 353.5 MB.
-Total: 3.967875 ms (FindLiveObjects: 0.165500 ms CreateObjectMapping: 0.070750 ms MarkObjects: 2.409500 ms  DeleteObjects: 1.321375 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002119 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x28afc7000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/yukun/Desktop/UnityWorkspace/ARCampus/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/yukun/Desktop/UnityWorkspace/ARCampus/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.637 seconds
-Domain Reload Profiling:
-	ReloadAssembly (637ms)
-		BeginReloadAssembly (71ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (2ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (515ms)
-			LoadAssemblies (31ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (178ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (244ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (47ms)
-				ProcessInitializeOnLoadAttributes (168ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.00 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5078 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 67 unused Assets / (22.7 MB). Loaded Objects now: 5585.
-Memory consumption went from 376.6 MB to 353.9 MB.
-Total: 3.778250 ms (FindLiveObjects: 0.151417 ms CreateObjectMapping: 0.055958 ms MarkObjects: 2.232584 ms  DeleteObjects: 1.337667 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-[usbmuxd] Attached: 1 00008101-001C6CA22261001E
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001989 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16fa37000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/yukun/Desktop/UnityWorkspace/ARCampus/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/yukun/Desktop/UnityWorkspace/ARCampus/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.644 seconds
-Domain Reload Profiling:
-	ReloadAssembly (645ms)
-		BeginReloadAssembly (69ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (2ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (524ms)
-			LoadAssemblies (28ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (181ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (249ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (47ms)
-				ProcessInitializeOnLoadAttributes (171ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.60 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5078 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 67 unused Assets / (22.7 MB). Loaded Objects now: 5588.
-Memory consumption went from 377.0 MB to 354.3 MB.
-Total: 3.854125 ms (FindLiveObjects: 0.156500 ms CreateObjectMapping: 0.058375 ms MarkObjects: 2.279958 ms  DeleteObjects: 1.358500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 3990.659467 seconds.
+  path: Assets/OpenCVForUnity
+  artifactKey: Guid(78afd95d201104186affd1b372420faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenCVForUnity using Guid(78afd95d201104186affd1b372420faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42739bcee7a9d55f1a94cca6d6efc15a') in 0.007061 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 957.666109 seconds.
-  path: Assets/Scripts/Display.cs
-  artifactKey: Guid(febd50f481eea4a31817079db63cb9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Display.cs using Guid(febd50f481eea4a31817079db63cb9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a79a443824c848aad4c342bfa6e60b04') in 0.006227 seconds 
-[usbmuxd] Detached: 1 00008101-001C6CA22261001E
-[usbmuxd] Attached: 2 00008101-001C6CA22261001E
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002229 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16fa37000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/yukun/Desktop/UnityWorkspace/ARCampus/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/yukun/Desktop/UnityWorkspace/ARCampus/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.631 seconds
-Domain Reload Profiling:
-	ReloadAssembly (632ms)
-		BeginReloadAssembly (70ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (2ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (510ms)
-			LoadAssemblies (30ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (176ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (242ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (45ms)
-				ProcessInitializeOnLoadAttributes (168ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.55 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5078 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 67 unused Assets / (22.7 MB). Loaded Objects now: 5591.
-Memory consumption went from 377.3 MB to 354.6 MB.
-Total: 3.834375 ms (FindLiveObjects: 0.178167 ms CreateObjectMapping: 0.058792 ms MarkObjects: 2.269458 ms  DeleteObjects: 1.326875 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 0.397298 seconds.
+  path: Assets/OpenCVForUnity/ReadMe.pdf
+  artifactKey: Guid(4c21b039bd8bde54b9f761c5fd15d24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenCVForUnity/ReadMe.pdf using Guid(4c21b039bd8bde54b9f761c5fd15d24f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58b8677fa0c84a7d7517509d942b5fa0') in 0.425579 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 1211.783344 seconds.
-  path: Assets/Scripts/Display.cs
-  artifactKey: Guid(febd50f481eea4a31817079db63cb9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Display.cs using Guid(febd50f481eea4a31817079db63cb9de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fefe16a4de340fe48d2fd513f26fc06') in 0.005855 seconds 
+  Time since last request: 21.922571 seconds.
+  path: Assets/OpenCVForUnity/StreamingAssets
+  artifactKey: Guid(f32404ee902638a43aeed0b2b8b2ac81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenCVForUnity/StreamingAssets using Guid(f32404ee902638a43aeed0b2b8b2ac81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caaedfb24bad6fc2a9adebdb10307819') in 0.001274 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001884 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x16fa37000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/yukun/Desktop/UnityWorkspace/ARCampus/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/yukun/Desktop/UnityWorkspace/ARCampus/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.663 seconds
-Domain Reload Profiling:
-	ReloadAssembly (663ms)
-		BeginReloadAssembly (70ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (539ms)
-			LoadAssemblies (30ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (191ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (251ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (47ms)
-				ProcessInitializeOnLoadAttributes (172ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.85 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5078 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 67 unused Assets / (22.7 MB). Loaded Objects now: 5594.
-Memory consumption went from 377.5 MB to 354.8 MB.
-Total: 4.145917 ms (FindLiveObjects: 0.196583 ms CreateObjectMapping: 0.065750 ms MarkObjects: 2.479833 ms  DeleteObjects: 1.402834 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 9.464164 seconds.
+  path: Assets/OpenCVForUnity/Editor
+  artifactKey: Guid(1e52d4da63c6a234ab53e8d2b80042cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenCVForUnity/Editor using Guid(1e52d4da63c6a234ab53e8d2b80042cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e97164279c053a098510604c7954de0') in 0.001384 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002073 seconds.
-Begin MonoManager ReloadAssembly
-Thread 0x28afc7000 may have been prematurely finalized
-Symbol file LoadedFromMemory doesn't match image /Users/yukun/Desktop/UnityWorkspace/ARCampus/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
-Symbol file LoadedFromMemory doesn't match image /Users/yukun/Desktop/UnityWorkspace/ARCampus/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
-Native extension for iOS target not found
-Native extension for Android target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.619 seconds
-Domain Reload Profiling:
-	ReloadAssembly (619ms)
-		BeginReloadAssembly (68ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (500ms)
-			LoadAssemblies (28ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (175ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (27ms)
-			SetupLoadedEditorAssemblies (237ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (44ms)
-				ProcessInitializeOnLoadAttributes (163ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (3ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.73 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5078 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 67 unused Assets / (22.7 MB). Loaded Objects now: 5597.
-Memory consumption went from 378.0 MB to 355.4 MB.
-Total: 3.715792 ms (FindLiveObjects: 0.153583 ms CreateObjectMapping: 0.058208 ms MarkObjects: 2.196292 ms  DeleteObjects: 1.307084 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.062438 seconds.
+  path: Assets/OpenCVForUnity/Editor/EnoxSoftware.OpenCVForUnity.Editor.asmdef
+  artifactKey: Guid(2fddcc37840027b48a59330a188be547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenCVForUnity/Editor/EnoxSoftware.OpenCVForUnity.Editor.asmdef using Guid(2fddcc37840027b48a59330a188be547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c0777a075d11e78c5d81e7abf9e2f6') in 0.031848 seconds 
 ========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 8.04 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 67 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 67 unused Assets / (22.7 MB). Loaded Objects now: 5597.
-Memory consumption went from 277.5 MB to 254.8 MB.
-Total: 4.478250 ms (FindLiveObjects: 0.158333 ms CreateObjectMapping: 0.058167 ms MarkObjects: 2.896083 ms  DeleteObjects: 1.365041 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-[usbmuxd] Detached: 2 00008101-001C6CA22261001E
+Received Import Request.
+  Time since last request: 44.804770 seconds.
+  path: Assets/OpenCVForUnity/Editor/OpenCVForUnityIOSBuildPostprocessor.cs
+  artifactKey: Guid(1468bec8532ec6d488cebe62022b2b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenCVForUnity/Editor/OpenCVForUnityIOSBuildPostprocessor.cs using Guid(1468bec8532ec6d488cebe62022b2b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc107ee71cabb59457546fd84e0296ce') in 0.092329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.661358 seconds.
+  path: Assets/OpenCVForUnity/Editor/OpenCVForUnityMenuItem.cs
+  artifactKey: Guid(94571a6b79d0cf14ba69f68be8bb2852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenCVForUnity/Editor/OpenCVForUnityMenuItem.cs using Guid(94571a6b79d0cf14ba69f68be8bb2852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63c9eb358668bbe0081caa0f20262c9d') in 0.001698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.710764 seconds.
+  path: Assets/OpenCVForUnity/Editor/OpenCVForUnityResetDebugMode.cs
+  artifactKey: Guid(2b5b6eabd7cb07c4c96feab726e82902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenCVForUnity/Editor/OpenCVForUnityResetDebugMode.cs using Guid(2b5b6eabd7cb07c4c96feab726e82902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '925635e3a95263f75490ef33197086c2') in 0.002325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.198218 seconds.
+  path: Assets/OpenCVForUnity/Examples
+  artifactKey: Guid(33ccb7813c4d943468c30d88ff8d8f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenCVForUnity/Examples using Guid(33ccb7813c4d943468c30d88ff8d8f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9c4794078d819dc23d89ac949b0b4e1') in 0.001219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.060085 seconds.
+  path: Assets/OpenCVForUnity/Examples/ExampleMaterial.mat
+  artifactKey: Guid(d5c2a09c8f8d079458801d608271b579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenCVForUnity/Examples/ExampleMaterial.mat using Guid(d5c2a09c8f8d079458801d608271b579) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7139bbd88aef3174eddccb26fb409773') in 0.126231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.247643 seconds.
+  path: Assets/OpenCVForUnity/Examples/MainModules
+  artifactKey: Guid(5f9bfb9383c040e48965c4a600705fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenCVForUnity/Examples/MainModules using Guid(5f9bfb9383c040e48965c4a600705fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad080ab6104a2229779f911a9be5c6bd') in 0.001853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.571636 seconds.
+  path: Assets/OpenCVForUnity/Examples/TouchController.cs
+  artifactKey: Guid(c0d0dbdff39d04340b992d63c1413714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenCVForUnity/Examples/TouchController.cs using Guid(c0d0dbdff39d04340b992d63c1413714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '684228d3ed5c6ce664d92637ccaf05cb') in 0.001437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.393672 seconds.
+  path: Assets/OpenCVForUnity/Examples/ShowSystemInfo.unity
+  artifactKey: Guid(42ae57bf137440946a42849763a28437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenCVForUnity/Examples/ShowSystemInfo.unity using Guid(42ae57bf137440946a42849763a28437) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24e6c46eb856f15b288df5d7cda95e78') in 0.000761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.553100 seconds.
+  path: Assets/OpenCVForUnity/Examples/ShowSystemInfo.cs
+  artifactKey: Guid(143a40e6a2bf638438ec2e149c8f376d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenCVForUnity/Examples/ShowSystemInfo.cs using Guid(143a40e6a2bf638438ec2e149c8f376d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bcd87434659d8e91ae201546098e8ed') in 0.000765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.479401 seconds.
+  path: Assets/OpenCVForUnity/Examples/ShowLicense.unity
+  artifactKey: Guid(eb34810e3e19dc345b1f0be0bf793d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenCVForUnity/Examples/ShowLicense.unity using Guid(eb34810e3e19dc345b1f0be0bf793d5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57d0c4e967a338dd10b159ffade49bf8') in 0.000790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.481500 seconds.
+  path: Assets/OpenCVForUnity/Examples/ShowLicense.cs
+  artifactKey: Guid(9edeb721da1dd3c49a1bd82aa7dfa2fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenCVForUnity/Examples/ShowLicense.cs using Guid(9edeb721da1dd3c49a1bd82aa7dfa2fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d5aa40f98dce990d5085b70b85411f5') in 0.001292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.936111 seconds.
+  path: Assets/OpenCVForUnity/Examples/OpenCVForUnityExample.unity
+  artifactKey: Guid(c1089b6c5cb5b0742be92732f5bdc172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenCVForUnity/Examples/OpenCVForUnityExample.unity using Guid(c1089b6c5cb5b0742be92732f5bdc172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8726b0f6726ec632c60ce813742f56e0') in 0.001014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.891303 seconds.
+  path: Assets/OpenCVForUnity/Examples/Resources
+  artifactKey: Guid(d2d9ca43d95613247b897ac3dc2d5697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenCVForUnity/Examples/Resources using Guid(d2d9ca43d95613247b897ac3dc2d5697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f27e8467d93a3ee937dce7e65b26c80') in 0.001174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.132863 seconds.
+  path: Assets/OpenCVForUnity/Notices.txt
+  artifactKey: Guid(c4b8abdf5e1f44a4db4dc7c19086a302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpenCVForUnity/Notices.txt using Guid(c4b8abdf5e1f44a4db4dc7c19086a302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eb63ace6cb5fc9a21f100d4d35af5f0') in 0.810345 seconds 

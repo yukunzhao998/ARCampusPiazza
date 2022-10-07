@@ -86,4 +86,31 @@ public class DataAnalysis : MonoBehaviour
             return false;
         }
     }
+
+    public static bool enoughMotion(float curOrientaion, float hisOrientation)
+    {
+        float deltaAngle1 = (hisOrientation+30)%360;
+        float deltaAngle2 = (hisOrientation-30)%360;
+        if(deltaAngle2 < 0){
+            deltaAngle2 += 360;
+        }
+
+        if((hisOrientation>=30)&&(hisOrientation<=330))
+        {
+            if((curOrientaion>deltaAngle2)&&(curOrientaion<deltaAngle1))
+            {
+                return false;
+            }
+        }
+        else
+        {
+            if((curOrientaion>deltaAngle2)||(curOrientaion<deltaAngle1))
+            {
+                return false;
+            }
+
+        }
+
+        return true;
+    }
 }
